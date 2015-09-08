@@ -1,0 +1,17 @@
+{
+  "name": "01_sample_simpleTab",
+  "version": "1.0.0",
+  "description": "## 参考 (RiotJS Example)[http://robertwpearce.com/blog/riotjs-example/]",
+  "main": "index.js",
+  "dependencies": {
+    "riot": "^2.2.4"
+  },
+  "devDependencies": {
+    "riot": "^2.2.4"
+  },
+  "scripts": {
+    "watch:riot": "riot -w src/ build/"
+  },
+  "author": "",
+  "license": "ISC"
+}
