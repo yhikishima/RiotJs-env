@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <style>
+  .tabItem {
+    display: inline-block;
+    width: 200px;
+    background: #ccc;
+    list-style: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .tabItem.is-active {
+    background: #dddddd;
+  }
+  .tabContent {
+    margin-left: 40px;
+    width: 610px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .tabContent__item {
+    display: none;
+  }
+  .tabContent__item.is-active {
+    display: block;
+  }
+
+  </style>
+</head>
+<body>
+  <riot-tabs></riot-tabs>
+  <script src="js/riot.min.js"></script>
+  <script src="build/tabs.js"></script>
+  <script>riot.mount('riot-tabs')</script>
+</body>
+</html>
